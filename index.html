@@ -8,11 +8,19 @@
 <body>
     <nav role="navigation">
         <ul class="navbar">
-            <li>About</li>
-            <li>Work</li>
-            <li>Contact</li>
+            <a href="#BioAnchor"><li>About</li></a>
+            <a href="#ProjectsAnchor"><li>Work</li></a>
+            <a href=mailto:marlirenee@gmail.com><li>Contact</li></a>
         </ul>
-        <div class="hamburger">&#9776;</div>
+        <div class="hamburger">&#9776;
+            <div class="responsive-menu">
+                <ul class="hamburgernavbar">
+                    <a href="#BioAnchor"><li>About</li></a>
+                    <a href="#ProjectsAnchor"><li>Work</li></a>
+                    <a href=mailto:marlirenee@gmail.com><li>Contact</li></a>
+                </ul>
+            </div>
+        </div>    
     </nav>
 
     <main role="main">
@@ -23,28 +31,29 @@
             
         </header>
 
-        <section class="Bio">
+        <section class="Bio" id="BioAnchor">
             <p>I focus on accessibility, interactive learning and child development, 
                 turning educational concepts into delightful experiences. 
                 My work is featured in interactive curriculums for everyone from kindergartners to working professionals. 
                 I’m also a Biblical studies nerd, budding scuba diver & proud plant mom.</p>
         </section>
 
-        <section class="Projects">
+        <section class="Projects" id="ProjectsAnchor">
             <div class="ProjectSectionTitle">
                 <h2>Projects</h2>
             </div>
 
             <div class="Project1"></div>
                 <div class="ProjectScreenshot">
-                    <p>Image Placeholder</p>    
+                    <img src="https://raw.githubusercontent.com/MarliRenee/Portfolio/master/PortfolioAssets/IntroQuiz.png">   
                 </div>
                 <div class="ProjectInfo">
                     <div class="ProjectTitle">
-                        <h3>Title Goes Here</h3>
+                        <h3>Intro to Accessibility Quiz</h3>
                     </div>
-                    <div class="ProjectSummary"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Morbi bibendum eu mi ut tristique. Fusce egestas sapien id tellus maximus accumsan.</p>
+                    <div class="ProjectSummary"><p>A quiz designed for new web developers, overviewing a few best practices to make their websites 
+                        and apps more accessible for viewers.
+                    </p>
                     </div>
                     <div class="ProjectIcons">
                         <img src="https://github.com/MarliRenee/Portfolio/blob/master/PortfolioAssets/JS.png?raw=true"/>
@@ -55,7 +64,7 @@
             </div>  
             
             <div class="Project2"></div>
-                <div class="ProjectScreenshot">
+                <div class="ScreenshotPlaceholder">
                     <p>Image Placeholder</p>    
                 </div>
                 <div class="ProjectInfo">
@@ -75,7 +84,7 @@
             </div>  
 
             <div class="Project3"></div>
-                <div class="ProjectScreenshot">
+                <div class="ScreenshotPlaceholder">
                     <p>Image Placeholder</p>    
                 </div>
                 <div class="ProjectInfo">
@@ -95,7 +104,7 @@
             </div> 
 
             <div class="Project4"></div>
-                <div class="ProjectScreenshot">
+                <div class="ScreenshotPlaceholder">
                     <p>Image Placeholder</p>    
                 </div>
                 <div class="ProjectInfo">
@@ -124,11 +133,13 @@
 
     <footer>
         <ul class="footer">
-            <li><img src="https://github.com/MarliRenee/Portfolio/blob/master/PortfolioAssets/EMAIL.png?raw=true"></li>
-            <li><img src="https://github.com/MarliRenee/Portfolio/blob/master/PortfolioAssets/LINKEDIN.png?raw=true"></li>
-            <li><img src="https://github.com/MarliRenee/Portfolio/blob/master/PortfolioAssets/GITHUB.jpg?raw=true"/></li>
+            <a href=mailto:marlirenee@gmail.com><li><img src="https://github.com/MarliRenee/Portfolio/blob/master/PortfolioAssets/EMAIL.png?raw=true"></li></a>
+            <a href="https://www.linkedin.com/in/marli-renee-4212211a6" target="_blank"><li><img src="https://github.com/MarliRenee/Portfolio/blob/master/PortfolioAssets/LINKEDIN.png?raw=true"></li></a> 
+            <a href="https://github.com/MarliRenee" target="_blank"><li><img src="https://github.com/MarliRenee/Portfolio/blob/master/PortfolioAssets/GITHUB.jpg?raw=true"/></li></a> 
         </ul>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
