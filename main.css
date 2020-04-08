@@ -3,13 +3,13 @@
   }
   
   body {
-    font-family: "Open Sans",
+    font-family: Montserrat,
     sans-serif; 
     font-size: 12px;
-    /* text-align: center; */
     line-height: 1.5;
     margin-left:10%;
     margin-right: 10%;
+    margin-top: 80px;
   }
   
   ul.navbar {
@@ -39,8 +39,14 @@
   }
 
   h1 {
+    font-size: 72px;
+    background: linear-gradient( to right, rgb(255, 112, 136), rgb(129, 29, 129));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 48px;
     margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
   }
 
   h2 {
@@ -79,8 +85,9 @@
     margin-top: 30px;
     text-align: center;
   }
+
   button {
-    background-color: darkgray;
+    background-color: black;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -96,6 +103,12 @@
     text-align: center;
   }
 
+/* 
+ ul {
+   background-color: grey;
+    display: inline;
+   float: center;
+ } */
 
   /* MEDIA QUERIES */
   
