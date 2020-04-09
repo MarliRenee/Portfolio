@@ -29,7 +29,6 @@
     display: inline;
     font-size: 14pt;
     padding: 3px;
-
   }
 
   .hamburger {
@@ -125,7 +124,7 @@
 
   button {
     border: 3px solid black;
-    color: white;
+    color: black;
     font-weight: bold;
     padding: 15px 32px;
     text-align: center;
